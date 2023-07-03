@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Estilos para o cabeçalho */
+  header {
+    background: linear-gradient(
+        90deg,
+        hsl(118deg 100% 35%) 0%,
+        hsl(118deg 100% 34%) 26%,
+        hsl(118deg 100% 32%) 39%,
+        hsl(118deg 100% 31%) 50%,
+        hsl(118deg 100% 29%) 61%,
+        hsl(118deg 100% 27%) 74%,
+        hsl(118deg 100% 26%) 100%
+      );
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+  }
+
+  .pesquisa-container {
+    text-align: end; 
+    align-items: center;
+    
+    width: 100%;
+    
+
+}
+
+.pesquisa-container input[type=text] {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+    
+
+.pesquisa-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+   
+}
+
+  /* Estilos para o menu de navegação */
+  nav {
+    background-color: #0c6b18;
+    color: #fff;
+    padding: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav a:hover {
+    background-color: #072e0c;
+  }
+
+  nav ul li a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.26);
+  }
+
+  /* Estilos para as seções de conteúdo */
+  main {
+    padding: 20px;
+    text-align: center;
+    font-size: 1em;
+  }
+
+  section {
+    margin-bottom: 20px;
+  }
+
+  section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #202020;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+   
+  }
+
+  .sobreocurso ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+
+.sobreocurso ul li{
+    display: inline;
+    outline: 1px black;
+}
+
+.sobreocurso ul li a{
+        color: #000000;
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 10px;
+        border-right: 1px solid rgba(0, 0, 0, 0.26);
+    }
+
+    .sobreocurso ul li a:hover, .sobreocurso ul li a.ativo {
+        background-color: #4caf4f62;
+    }
+
+    .conteudo p {
+        text-align: left;
+        display: block;
+        font-size: 1.3em;
+        margin-left: 2px;
+    }
+
+    .conteudo {
+        width: 60%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;    
+        border:  thin solid rgba(65, 65, 65, 0.233);margin-top: 10px;
+        border-radius: 10px;
+        margin-bottom: 100px;
+       
+    }
+
+    table, th, td {
+		border: 1px solid rgba(0, 0, 0, 0.116);
+	}
+
+
+
+    
+
+
